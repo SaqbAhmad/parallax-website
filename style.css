@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+
+.pimg1{
+    background-image:url(images/img1.jpeg);
+    min-height:100%;
+    /* min-width:100%; */
+    /* position:relative; */
+   
+}
+.pimg2{
+    background-image:url(images/img2.jpeg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image:url(images/img3.jpeg);
+    min-height: 400px;
+}
+.pimg1,.pimg2,.pimg3{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptext{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-transform:uppercase;
+}
+.textBg{
+    padding:20px;
+    color:white;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 5;
+    background: #313534;
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+.section1 h1{
+    text-transform: uppercase;
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    font-weight: 8;
+}
+.section1 p{
+    text-align: center;
+    padding:20px 50px;
+    line-height: 1.7em;
+    font-family: "Lato", sans-serif;
+}
+.section2{
+    background-color:#282e34;
+}
+.section2 h1{
+    text-transform: uppercase;
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    font-weight: 8;
+    color:#ddd;
+}
+.section2 p{
+    text-align: center;
+    padding:20px 50px;
+    line-height: 1.7em;
+    font-family: "Lato", sans-serif;
+    color:#ddd;
+}
+.section3{
+    background-color:#282e34;
+}
+.section3 h1{
+    text-transform: uppercase;
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    font-weight: 8;
+    color:#ddd;
+}
+.section3 p{
+    text-align: center;
+    padding:20px 50px;
+    line-height: 1.7em;
+    font-family: "Lato", sans-serif;
+    color:#ddd;
+}
